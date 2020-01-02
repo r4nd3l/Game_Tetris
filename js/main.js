@@ -156,7 +156,7 @@ Piece.prototype.lock = function(){
       }
       // pieces to lock on top = game over
       if(this.y + r < 0){
-        alert("Game Over!");
+        alert("Game Over! Your final score is: " + score);
         // stop request animation frame
         gameOver = true;
         break;
