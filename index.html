@@ -16,10 +16,22 @@
 </head>
 <body>
 
-  <canvas id="tetris" width="200" height="400"></canvas>
-  <div>
+  <div class="score">
     Score: <span id="score">0</span>
   </div>
+  <canvas id="tetris" width="200" height="400"></canvas>
+
+  <section>
+    <div class="table">
+      <h4>Use your arrow keys to navigate the pieces</h4>
+      <p id="first"><kbd>&uarr;</kbd></p>
+        <span>
+          <p><kbd>&larr;</kbd></p>
+          <p><kbd>&darr;</kbd></p>
+          <p><kbd>&rarr;</kbd></p>
+        </span>
+    </div>
+  </section>
 
   <script src="js/tetrominoes.js" charset="utf-8"></script>
   <script src="js/main.js" charset="utf-8"></script>
